@@ -1,10 +1,9 @@
-# mattfinucane.com
+# mawulijo.me
 
-This is my portfolio website built using the [GoHugo](https://gohugo.io/) static site framework. It contains information on the languages, frameworks and tools that I use everyday.
+This is my portfolio website built using the [GoHugo](https://gohugo.io/) static site framework. It contains information on my school work, languages, frameworks and tools that I use everyday.
 
-My motivation for creating this site was to be able to have something fast and simple with minimal dependencies.
+My motivation for creating this site was to be able to have place to showcase and preserve my knowledge.
 
-Previous iterations of my portfolio created within the last ten years didn't have any of this compared to now.
 
 ## Technical overview
 GoHugo is a static site generator that compiles Markdown and templates into static HTML, with other assets being handled separately.
@@ -24,16 +23,16 @@ Another big benefit is speed - serving static files is fast.
 ### Content and layout
 This is how the content and layout templates work together.
 
-- Content types are specified inside the `mattfinucane/archetypes` directory with the actual content being placed inside the `mattfinucane/content` directory.
+- Content types are specified inside the `mawulijo/archetypes` directory with the actual content being placed inside the `mawulijo/content` directory.
 
 - Content types also match up to the content and sections as following example shows:
-	- `mattfinucane/archetypes/project` defines the metadata for the content for a project.
-	- `mattfinucane/content/projects` is where each file for a project goes. This contains the metadata as well as the content underneath in Markdown format.
-	- `mattfinucane/layout/projects/list.html` is the template used to render a list of projects.
-	- `mattfinucane/layout/projects/card.html` renders and individual project card that shows the title and description.
-	- `mattfinucane/layout/projects/single.html` is the template used to render all the information on a single project, where we can access the metadata and markdown content.
+	- `mawulijo/archetypes/project` defines the metadata for the content for a project.
+	- `mawulijo/content/projects` is where each file for a project goes. This contains the metadata as well as the content underneath in Markdown format.
+	- `mawulijo/layout/projects/list.html` is the template used to render a list of projects.
+	- `mawulijo/layout/projects/card.html` renders and individual project card that shows the title and description.
+	- `mawulijo/layout/projects/single.html` is the template used to render all the information on a single project, where we can access the metadata and markdown content.
 	- To view a list of projects the url is `http://my-website.com/projects`.
-	- To view an individual project, the url is `http://my-website.com/projects/my-project` assuming the file path for the content itself is `mattfinucane/content/projects/my-project.md`.
+	- To view an individual project, the url is `http://my-website.com/projects/my-project` assuming the file path for the content itself is `mawulijo/content/projects/my-project.md`.
 
 - Individual pages (those without list and detail views) are mapped as follows:
 	- `content/about.md` contains the metadata for the about page, such as the `title` and `description` along with the content in Markdown format.
@@ -56,9 +55,9 @@ The GoHugo framework does not handle these assets, so I have the following setup
 ### Gulp
 Gulp is a task runner that handles the following tasks:
 
-- SASS is compiled to CSS using the `gulp-sass` plugin. The file `main.css` is copied over to `/mattfinucane/static/css/` on changes to the SASS files.
-- Javascript is written using the ES2015 syntax. This gets concatenated and copied over to `mattfinucane/static/js` as `main.js`.
-- SVG files are copied over to `mattfinucane/static/svg`.
+- SASS is compiled to CSS using the `gulp-sass` plugin. The file `main.css` is copied over to `/mawulijo/static/css/` on changes to the SASS files.
+- Javascript is written using the ES2015 syntax. This gets concatenated and copied over to `mawulijo/static/js` as `main.js`.
+- SVG files are copied over to `mawulijo/static/svg`.
 
 Gulp watches files for changes in the background and automatically runs these tasks. When building, Gulp runs once and minifies the content as an extra step.
 
@@ -71,7 +70,7 @@ Docker Compose is useful because it means that containers can talk to each other
 
 I have the following Docker set up for my development environment.
 
-- The first container acts and an Nginx reverse proxy so I can see the site at http://mattfinucane.dev instead of http://localhost:1313
+- The first container acts and an Nginx reverse proxy so I can see the site at http://mawulijo.dev instead of http://localhost:1313
 - The second container is NodeJS based and handles the build processed for the image, css and script assets through Gulp.
 - The third container runs Hugo itself as a server and listens for changes to the content and layout files.
 
@@ -81,7 +80,7 @@ To run my development environment, all I need to do is run `$ docker-compose bui
 
 To test a local build with minified assets and static HTML generated, I need to run `$ docker-compose -f build.yml up`.
 
-**Note:** to make sure the site is accessible over `http://mattfinucane.dev` or `http://mattfinucane.build` I need to edit my `hosts` file to point `127.0.0.1` to `mattfinucane.dev` and `mattfinucane.build`.
+**Note:** to make sure the site is accessible over `http://mawulijo.dev` or `http://mawulijo.build` I need to edit my `hosts` file to point `127.0.0.1` to `mawulijo.dev` and `mawulijo.build`.
 
 ### Deployments
 
