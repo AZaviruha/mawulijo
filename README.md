@@ -1,2 +1,0 @@
-# mawulijo
-My Portfolio site
