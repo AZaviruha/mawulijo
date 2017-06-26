@@ -1,5 +1,5 @@
 ---
-title: 			"Micr"
+title: 			"gogland"
 description: 	"Integrated development environment created by JetBrains."
 proficiency:	2
 identifier:		"home"
