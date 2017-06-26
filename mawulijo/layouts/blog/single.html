@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+	<head>
+		{{ partial "head" . }}
+	</head>
+	<body data-post-identifier={{ .Params.uniqueid }}>
+		<div class="wrapper background-dark-green">
+			{{ partial "header" . }}
+		</div>
+		<div class="wrapper background-dark-green">
+			{{ partial "teaser" . }}
+		</div>
+		<div class="wrapper">
+			<main class="page post">
+				{{ .Content }}
+				<p class="byline">
+					Written by {{ .Params.author }}, {{ .Date.Format "January 2006" }}
+				</p>
+			</main>
+			{{ if .Params.disqus }}
+				<div class="comments" id="disqus_thread">
+				</div>
+			{{ end }}
+		</div>
+		<div class="wrapper">
+			{{ partial "footer" . }}
+		</div>
+		{{ partial "scripts" .}}
+	</body>
+</html>

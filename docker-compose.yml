@@ -1,0 +1,72 @@
+version: '3'
+
+services:
+  mj-site-dev:
+    container_name: site_dev
+    build:
+      context: .docker/site
+      dockerfile: Dockerfile
+      args:
+        hugo_version: "0.24.1"
+    ports: 
+      - "1313:1313"
+    volumes: 
+      - ./:/opt:rw
+    command: hugo server -s /opt/mawulijo --config /opt/mawulijo/config.yml --baseURL http://mawulijo.dev/ --bind "0.0.0.0" --appendPort=false --verbose
+
+  mj-nginx-dev:
+    container_name: nginx_dev
+    build:
+      context: .docker/nginx
+      dockerfile: Dockerfile
+      args:
+        nginx_conf: nginx.development.conf
+    volumes:
+      - ./media:/opt/media:ro
+    links: 
+      - mj-site-dev
+    ports:
+      - "81:80"
+    command: nginx -g "daemon off;"
+
+  mj-dependencies-dev:
+    image: node:7.9.0
+    container_name: dependencies_dev  
+    volumes:
+      - ./:/opt:rw
+    links:
+      - mj-site-dev
+    depends_on:
+      - mj-site-dev
+    command: sh -c "cd /opt && npm install -g gulp && npm install"
+
+  mj-gulp-dev:
+    image: node:7.9.0
+    container_name: gulp_dev
+    restart: always
+    environment: 
+      - SCRIPTS_DEST=./mawulijo/static/js/
+      - STYLES_DEST=./mawulijo/static/css/
+      - SVG_DEST=./mawulijo/static/svg/
+      - FAVICONS_DEST=./mawulijo/static/favicons/
+    volumes:
+      - ./:/opt:rw
+    links:
+      - mj-site-dev
+      - mj-dependencies-dev
+    depends_on:
+      - mj-dependencies-dev
+      - mj-site-dev
+    command: sh -c "cd /opt && npm link gulp && gulp"
+
+  mj-sass-dev:
+    container_name: mj_sass_dev
+    image: ruby:2.1-alpine
+    restart: on-failure
+    volumes:
+     - ./:/opt:rw
+    links:
+      - mj-site-dev
+    depends_on:
+      - mj-site-dev
+    command: sh -c "gem install sass && sass --watch /opt/assets/sass/main.sass:/opt/site/static/css/main.css"

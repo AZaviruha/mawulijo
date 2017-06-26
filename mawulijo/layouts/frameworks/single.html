@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+	<head>
+		{{ partial "head" . }}
+	</head>
+	<body>
+		<div class="wrapper background-dark-green">
+			{{ partial "header" . }}
+		</div>
+		<div class="wrapper background-dark-green">
+			{{ partial "teaser" . }}
+		</div>
+		<div class="wrapper">
+			<main class="page category">
+				{{ .Content }}
+			</main>
+		</div>
+		<div class="wrapper">
+			{{ partial "footer" . }}
+		</div>
+		{{ partial "scripts" .}}
+	</body>
+</html>

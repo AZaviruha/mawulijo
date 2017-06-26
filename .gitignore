@@ -1,0 +1,6 @@
+**/.DS_Store
+public/
+node_modules/
+bower_components/
+assets/sass/thirdparty/
+mawulijo/static
