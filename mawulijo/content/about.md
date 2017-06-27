@@ -35,7 +35,6 @@ The idea behind this website is in twofold, to give a quick overview of my skill
 
 It was built using the [Hugo](https://gohugo.io) static site generator which embodies these principles of engineering that I adhere to - simplicity, elegance, performance and openness.
 
-I am registered in Ghana with VAT ID <em>#000000000</em>. All opinions on this website are my own and content is &copy; Joshua M. Agbeku {{< year >}}
 
 I respect you and your privacy as a visitor to my site. This is why I don't have any analytics or tracking tools installed and I will never place ads on this site.
 

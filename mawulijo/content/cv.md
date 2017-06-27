@@ -9,7 +9,7 @@ I am a logical thinker, resourceful and willing to take full
 ownership of user problems until they are fully resolved. I am hungry to learn Information Technology and its manifold aspects from the ground up
 
 ## Professional Background
-------
+
 
 #### November 2011 - Present
 > ### IT Assistant, [Electricity Company of Ghana (E.C.G)][ECG]
@@ -27,8 +27,6 @@ ownership of user problems until they are fully resolved. I am hungry to learn I
 
 
 ## Academic Background
-
--------
 
 
 #### 2017 - Present
