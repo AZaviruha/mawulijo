@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full stack Web Developer on Joshua M. Agbeku</title>
+    <link>http://mawulijo.dev/</link>
+    <description>Recent content in Full stack Web Developer on Joshua M. Agbeku</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mawulijo.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developer Portfolio Static</title>
+      <link>http://mawulijo.dev/projects/mattfinucane-static/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/projects/mattfinucane-static/</guid>
+      <description>The brief Design and build a site that is fast, responsive and easy to maintain. Minimalism is the key concept here to present key information quickly and allow the reader to drill down for more detail as needed.
+The site should load very quickly on all devices given all network conditions. There should not be too many external dependencies that could slow down loading time.
+Project planning For this site, I opted to use Hugo, a static site generator for the following reasons:</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Experiences and conclusion</title>
+      <link>http://mawulijo.dev/blog/hugo-conclusion/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-conclusion/</guid>
+      <description>Experiences Overall it has been a very interesting experience using Hugo to build this site and this is the first static site generator I have used to take a project to completion.
+When I started this project, my aim was to have a site that was quick to load, needed very little resources in terms of infrastructure and was easy to add content to.
+The previous incarnations of my personal sites either had Wordpress to edit content or they had no CMS, whereby I would need to edit content files by hand - a process that was quite error prone.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Deployment</title>
+      <link>http://mawulijo.dev/blog/hugo-deployment/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-deployment/</guid>
+      <description>An overview of deploying the site In the previous parts of this series, we looked at an overview of this site, the Hugo setup, setting up a development environment with Docker and asset management with Gulp.
+We will now take a look at how to deploy this site with Github and CircleCI.
+Github is an online service that uses Git as its source control manager. Both of these are the most widely used services for managing source code today.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Assets and Gulp</title>
+      <link>http://mawulijo.dev/blog/hugo-asset-management/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-asset-management/</guid>
+      <description>Managing assets with Gulp Previously in this series, we looked at an overview of this site, the Hugo set up and how to get a development environment set up using Docker and Docker Compose.
+In this fourth part of the series, we take a look at using Gulp to build out our scripts and styles and manage images and SVG files.
+Gulp is a Javascript task runner that processes source files and generates them into something the browser can understand.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Containerised development with Docker Compose</title>
+      <link>http://mawulijo.dev/blog/hugo-docker-setup/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-docker-setup/</guid>
+      <description>An overview of Docker and Docker Compose Following on from the first and second parts of this series, we will take a look at getting a development environment set up using Docker and Docker Compose.
+Docker is a container management tool. A container is an isolated running instance of an operating system, usually set up with a piece of infrastructure required to complete a task.
+A container is a running instance of a Docker image and there are many different images available.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Hugo</title>
+      <link>http://mawulijo.dev/blog/hugo-setup/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-setup/</guid>
+      <description>Hugo As previously mentioned in the first part of this series, Hugo is a static site generator.
+This means that it reads in a combination of Markdown content and HTML templates and combines them to generate a site.
+Structural outline Hugo has the following as a basic requirement for how to structure your site.
+This setup is quite strict and is the only &amp;lsquo;opinionated&amp;rsquo; part of the framework.
+It can be quite tricky to get working for beginners.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - An overview</title>
+      <link>http://mawulijo.dev/blog/building-this-site/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/building-this-site/</guid>
+      <description>Objectives for this website Since setting up my peronsal online presence back in 2008, my websites have gone through several iterations and relaunches.
+The first release of this website ran on WordPress with a custom theme I had created bolted on.
+Subsequent iterations launched in 2013 and then again in 2014 used a simple PHP back end and then the Meteor framework respectively.
+Each time I released a new version of the site, it was getting closer to the ideal setup I wanted to have but not all the boxes were being ticked.</description>
+    </item>
+    
+    <item>
+      <title>SliderJS</title>
+      <link>http://mawulijo.dev/projects/slider-js/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/projects/slider-js/</guid>
+      <description>The brief This is a package I wrote and used in several of my projects. It offers slide/swipe functionality for content inside a carousel.
+I wanted to create a slider that was lightweight and simple for others to integrate into their projects.
+I also wanted it to be fast and responsive so it would behave itself when the browser window was resized.
+Project planning There were existing slider modules available, but they all required third party packages such as jQuery.</description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>http://mawulijo.dev/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/404/</guid>
+      <description>Sorry. I couldn&amp;rsquo;t find what you were looking for.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://mawulijo.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/about/</guid>
+      <description>Profile I am a full stack web and mobile developer and systems administrator based in Accra, Ghana.
+I have been building websites and applications for the past two years and I graduated with my first degree from Switzerland Management Center University (SMCU) with a Bachelor in IT-Security (BBA). I am currently pursuing my second degree in BSc. (Hons) Computer Science at Regent University College of Science and Technology
+I have worked with the Electricity Company of Ghana for the since 2011 as an IT Assistant.</description>
+    </item>
+    
+    <item>
+      <title>Adobe Illustrator</title>
+      <link>http://mawulijo.dev/tools/adobe-illustrator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/adobe-illustrator/</guid>
+      <description> What is it? Adobe Illustrator is a vector graphics editing tool and part of the Adobe Creative Suite.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Adobe Photoshop</title>
+      <link>http://mawulijo.dev/tools/adobe-photoshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/adobe-photoshop/</guid>
+      <description> What is it? Adobe Photoshop is a raster graphics editing tool and part of the Adobe Creative Suite.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Angular 2</title>
+      <link>http://mawulijo.dev/frameworks/angular-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/angular-2/</guid>
+      <description> What is it? Angular 2 is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop
+What is it like? Its like non other ;).
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Apache HTTP server</title>
+      <link>http://mawulijo.dev/infrastructure/apache-http-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/apache-http-server/</guid>
+      <description> What is it? Apache is a popular Open-source web server.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Apache Libcloud</title>
+      <link>http://mawulijo.dev/frameworks/apache-libcloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/apache-libcloud/</guid>
+      <description> What is it? Apache Libcloud is an Open-source Python based driver library for interacting with several cloud service providers using a unified API.
+What is it like? I made an Open-source contribution to this project in the form of the ProfitBricks driver for the new version of their API.
+The contribution guidelines were very clear and the whole process of merging the code was very smooth.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>BowerJS</title>
+      <link>http://mawulijo.dev/tools/bowerjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/bowerjs/</guid>
+      <description> What is it? Bower is a client side package repository and management tool for Javascript applications.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    SliderJS   Simple content slider.    </description>
+    </item>
+    
+    <item>
+      <title>Bufallo</title>
+      <link>http://mawulijo.dev/frameworks/bufallo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/bufallo/</guid>
+      <description>What is it? Bufullo aims to make building new web applications in Go as quick and simple as possible, and what could be more simple than a new application generator?
+What is it like? EOne of the downsides to Go development is the lack of code &amp;ldquo;reloading&amp;rdquo;. This means as you change your code you need to manually stop your application, rebuild it, and then restart it. Buffalo finds this is annoying, and wants to make life better for you.</description>
+    </item>
+    
+    <item>
+      <title>CircleCI</title>
+      <link>http://mawulijo.dev/tools/circleci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/circleci/</guid>
+      <description> What is it? CircleCI is a tool that ties nicely in to Github and automates testing and deployment for applications.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>http://mawulijo.dev/frameworks/django/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/django/</guid>
+      <description> What is it? Django is an MVC web framework written in Python.
+What is it like? For the most part, working with Django was easy and intuitive, providing a basic and flexible structure to work with even if it is slightly opinionated.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://mawulijo.dev/infrastructure/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/docker/</guid>
+      <description> What is it? Docker is a tool that manages the deployment of applications inside containers.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>http://mawulijo.dev/tools/docker-compose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/docker-compose/</guid>
+      <description> What is it? Docker Compose is a tool that manages the deployment of multi-container applications across environments.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Font Awesome</title>
+      <link>http://mawulijo.dev/tools/font-awesome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/font-awesome/</guid>
+      <description> What is it? Font Awesome is a CSS framework for delivering font icons.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://mawulijo.dev/tools/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/git/</guid>
+      <description> What is it? Git is a source control manager and code collaboration tool.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    SliderJS   Simple content slider.    </description>
+    </item>
+    
+    <item>
+      <title>Go (golang)</title>
+      <link>http://mawulijo.dev/languages/go-golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/languages/go-golang/</guid>
+      <description>What is it? Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+What is it like? Go is recognizably in the tradition of C, but makes many changes to improve brevity, simplicity, and safety. Go consists of,
+ A syntax and environment adopting patterns more common in dynamic languages: Optional concise variable declaration and initialization through type inference  go (x := 0 not int x = 0; or var x = 0;)   Fast compilation times.</description>
+    </item>
+    
+    <item>
+      <title>Gulp</title>
+      <link>http://mawulijo.dev/tools/gulp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/gulp/</guid>
+      <description> What is it? Gulp is an automated Javascript task runner used for common tasks such as concatenating and minifying source code as part of the deployment process.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>HTML5</title>
+      <link>http://mawulijo.dev/languages/html5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/languages/html5/</guid>
+      <description>What is it? HTML5 is a markup language used to structure documents for presentation on the web. It is most current version of the HTML standard and is well supported in all modern browsers.
+What is it like? It&amp;rsquo;s a nice iteration to the HTML standard and addresses issues with the older standards.
+When used correctly, it can be terse and neat and introduces new element tags for defining the structure of a document with much better semantics.</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://mawulijo.dev/frameworks/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/hugo/</guid>
+      <description>What is it? Hugo is a static site generator written in the Go programming language.
+What is it like? It&amp;rsquo;s a very nice non-opinionated framework, meaning it provides the barebones of what you need and leaves the rest up to the developer.
+Although still quite young, there is an active and thriving community who are willing to help new users.
+I have built this site using the Hugo framework and would highly recommend it for simple portfolio based websites.</description>
+    </item>
+    
+    <item>
+      <title>JSLint</title>
+      <link>http://mawulijo.dev/tools/jslint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/jslint/</guid>
+      <description> What is it? JSLint is a code quality checking tool for Javascript.
+Projects  SliderJS   Simple content slider.    </description>
+    </item>
+    
+    <item>
+      <title>Javascript (ES5)</title>
+      <link>http://mawulijo.dev/languages/javascript-es5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/languages/javascript-es5/</guid>
+      <description>What is it? Javascript is a high level scripting language used both client and server side.
+ES5 refers to the version of the standard outlined by ECMA.
+What is it like? Good and bad, in that it is easy to learn but difficult to master. A lot of effort is required to create code that is neat and easy to maintain.
+ES5 was standardised in 2009 when single page application development was in its infancy and subsequent releases of the standard have addressed many of the issues encountered in the early days.</description>
+    </item>
+    
+    <item>
+      <title>Javascript (ES7)</title>
+      <link>http://mawulijo.dev/languages/javascript-es7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/languages/javascript-es7/</guid>
+      <description>What is it? Javascript is a high level scripting language used both server side and client side with ES7 being the latest version of the standard outlined by ECMA.
+Most of the popular client side single page application frameworks encourage users to write their code using the ES7 standard, with transcompilers reverting the code back to ES5 for older browsers.
+What is it like? ES7 adds some nice language features, such as support for classes, neater arrow functions, promises for async programming and better scoping - definitely a big improvement.</description>
+    </item>
+    
+    <item>
+      <title>Less</title>
+      <link>http://mawulijo.dev/frameworks/less/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/less/</guid>
+      <description> What is it? LESS is a CSS preprocessor framwork with features such as mixins, variables and functions.
+What is it like? Nice and easy to use with a good clean syntax. I used LESS with several projects because it had good support within the Meteor community but for new projects I would opt to use the slightly more powerful SASS instead.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://mawulijo.dev/infrastructure/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/linux/</guid>
+      <description> What is it? Linux is a Open-source Unix-like operating system.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Microsoft SQL Server</title>
+      <link>http://mawulijo.dev/infrastructure/microsoft-sql-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/microsoft-sql-server/</guid>
+      <description> What is it? Microsoft SQL Server is a relational database management system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>http://mawulijo.dev/infrastructure/mongodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/mongodb/</guid>
+      <description> What is it? MongoDB is an Open-source document oriented database system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Mongoose</title>
+      <link>http://mawulijo.dev/frameworks/mongoose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/mongoose/</guid>
+      <description> What is it? Mongoose is a NodeJS wrapper that interacts with MongoDB.
+What is it like? Powerful and easy to pick up. It has a powerful relational data modelling set up with validation and hooks.
+Fragmented documentation can be a bit tricky, but it does keep up to date with new MongoDB features.
+I will continue to use this on all MEAN stack applications I work with.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>http://mawulijo.dev/infrastructure/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/mysql/</guid>
+      <description> What is it? MySQL is a popular Open-source relational database management system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>http://mawulijo.dev/infrastructure/nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/nginx/</guid>
+      <description> What is it? Nginx is a minimal and modular high performing web server commonly used in reverse-proxying for web applications.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>http://mawulijo.dev/infrastructure/nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/nodejs/</guid>
+      <description> What is it? NodeJS is a server-side Javascript run-time environment.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>OpenGL</title>
+      <link>http://mawulijo.dev/frameworks/opengl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/opengl/</guid>
+      <description> What is it? OpenGL is a standardised graphics framework which provides direct access to video hardware using a common interface.
+What is it like? The learning curve is quite steep but in the right hands it is very powerful, dependable and fast.
+I have been experimenting with OpenGL for the past couple of months and will continue to do so.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>http://mawulijo.dev/infrastructure/postgresql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/postgresql/</guid>
+      <description> What is it? PostgreSQL is a popular Open-source object-relational database management system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Pylint</title>
+      <link>http://mawulijo.dev/tools/pylint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/pylint/</guid>
+      <description> What is it? Pylint is a code quality tool for Python.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://mawulijo.dev/languages/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/languages/python/</guid>
+      <description>What is it? Python is a high level general purpose programming and scripting language. It is used primarily in creating desktop and web applications.
+What is it like? Python is an easy language to pick up, with a neat syntax and nice features. It has good community support and is well documented, but can be fragmented across its different versions which makes finding solutions to common problems a little bit more tricky.</description>
+    </item>
+    
+    <item>
+      <title>Robomongo</title>
+      <link>http://mawulijo.dev/tools/robomongo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/robomongo/</guid>
+      <description> What is it? Robomongo is a desktop application for managing MongoDB document stores.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>SQLite</title>
+      <link>http://mawulijo.dev/infrastructure/sqlite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/sqlite/</guid>
+      <description> What is it? SQLite is a serverless SQL based relational database commonly used in web and mobile applications.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>http://mawulijo.dev/frameworks/sass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/sass/</guid>
+      <description> What is it? Sass is another CSS preprocessor framework with built in features such as mixins, variables and functions.
+What is it like? Fast, powerful, elegant and well documented. I use this for all projects I am working on in conjunction with the Bourbon.io toolset.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Sublime Text</title>
+      <link>http://mawulijo.dev/tools/sublime-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/sublime-text/</guid>
+      <description> What is it? Sublime text is a lightweight modular text editor.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    SliderJS   Simple content slider.    </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code</title>
+      <link>http://mawulijo.dev/tools/vscode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/vscode/</guid>
+      <description> What is it? VScode is a lightweight modular text editor.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    SliderJS   Simple content slider.    </description>
+    </item>
+    
+    <item>
+      <title>WebGL</title>
+      <link>http://mawulijo.dev/frameworks/webgl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/webgl/</guid>
+      <description> What is it? WebGL is the Javascript API that closely matches OpenGL ES and gives access to video hardware to render 2d and 3d graphics.
+What is it like? Still in its infancy but making good strides and is quite powerful, if not as fast as OpenGL. The learning curve is quite steep but there are plenty of resources to get newcomers started.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Webpack</title>
+      <link>http://mawulijo.dev/tools/webpack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/webpack/</guid>
+      <description> What is it? Webpack is a module bundler for modern JavaScript applications. When webpack processes your application, it recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into a small number of bundles - often only one - to be loaded by the browser.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Work experience</title>
+      <link>http://mawulijo.dev/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/cv/</guid>
+      <description>Profile I am a logical thinker, resourceful and willing to take full ownership of user problems until they are fully resolved. I am hungry to learn Information Technology and its manifold aspects from the ground up
+Professional Background November 2011 - Present  IT Assistant, Electricity Company of Ghana (E.C.G) E.C.G provides electric power to the southern part of Ghana  Few of my duties include:  Provide broad IT related support via remote or in person as needed to minimize downtime Identify, isolate and basic computer repair as well as doing preventative maintenance routines 2013: Liaise between the I.</description>
+    </item>
+    
+    <item>
+      <title>Work with me</title>
+      <link>http://mawulijo.dev/hire-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/hire-me/</guid>
+      <description>Hello I am a full stack web developer based in Accra, Ghana and I work remotely with businesses of all sizes across the world. I work well on projects within teams or on my own, and I have built several projects on my own from scratch.
+If you are looking for somebody with strong technical and communication skills to take on a project at any stage in its lifecycle, I would be more than happy to work with you on that.</description>
+    </item>
+    
+    <item>
+      <title>Yarn</title>
+      <link>http://mawulijo.dev/tools/yarn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/yarn/</guid>
+      <description> What is it? Yarn is a client side package repository and management tool for Javascript applications.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    SliderJS   Simple content slider.    </description>
+    </item>
+    
+    <item>
+      <title>expressJS</title>
+      <link>http://mawulijo.dev/frameworks/expressjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/expressjs/</guid>
+      <description> What is it? ExpressJS is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+What is it like? Express provides a thin layer of fundamental web application features, without obscuring Node.js features that you know and love
+It is also the most popular and widely used node.js out there
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>gogland</title>
+      <link>http://mawulijo.dev/tools/gogland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/tools/gogland/</guid>
+      <description> What is it? Microsoft Visual Studio is an integrated development environment that supports the go language but also supports a wide variety of programming languages and frameworks.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
+      <link>http://mawulijo.dev/frameworks/jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/jquery/</guid>
+      <description> What is it? jQuery is a Javascript library designed to simplify cross-platform client side development.
+What is it like? Fast and small and very useful for dealing with cross-browser issues (with older browsers) encountered when using standard Javascript.
+I have used this in the past and would use it again if support for older browsers was needed, but with advances in modern Javascript I wouldn&amp;rsquo;t use this anymore.
+Projects  </description>
+    </item>
+    
+  </channel>
+</rss>

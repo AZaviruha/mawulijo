@@ -4,6 +4,10 @@ description: 	"Professional work experience and qualifications from 2009 to pres
 identifier:		"cv"
 ---
 
+## Profile
+I am a logical thinker, resourceful and willing to take full 
+ownership of user problems until they are fully resolved. I am hungry to learn Information Technology and its manifold aspects from the ground up
+
 ## Professional Background
 ------
 

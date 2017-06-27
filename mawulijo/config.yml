@@ -1,5 +1,6 @@
 ---
 baseURL:                "http://mawulijo.dev"
+publishDir:            "docs"
 languageCode:           "en-us"
 title:                  "Joshua M. Agbeku"
 disableLiveReload:      true
