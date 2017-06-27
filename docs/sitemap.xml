@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mawulijo.dev/projects/mattfinucane-static/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/hugo-conclusion/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/hugo-deployment/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/hugo-asset-management/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/hugo-docker-setup/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/hugo-setup/</loc>
+    <lastmod>2017-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/building-this-site/</loc>
+    <lastmod>2017-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/projects/slider-js/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/404/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/adobe-illustrator/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/adobe-photoshop/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/adobe-photoshop/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/angular-2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/apache-http-server/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/apache-libcloud/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/atmospherejs/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/blog/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/bowerjs/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/bowerjs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/bufallo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/circleci/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/categories/circleci/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/circleci/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/django/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/docker/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/categories/docker/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/docker/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/docker-compose/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/docker-compose/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/font-awesome/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/font-awesome/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/git/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/git/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/go-golang/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/gulp/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/categories/gulp/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/gulp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/html5/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/html5/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/hugo/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/categories/hugo/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/jslint/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/jslint/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/javascript-es5/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/javascript-es7/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/javascript-es7/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/less/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/linux/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/microsoft-sql-server/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/mongodb/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/mongoose/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/mysql/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/nginx/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/nginx/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/nodejs/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/nodejs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/opengl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/postgresql/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/pylint/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/languages/python/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/robomongo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/infrastructure/sqlite/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/sass/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/sass/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/projects/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/sublime-text/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/sublime-text/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/</loc>
+    <lastmod>2017-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/vscode/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/webgl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/webpack/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/hire-me/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/yarn/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/expressjs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/tools/gogland/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mawulijo.dev/frameworks/jquery/</loc>
+  </url>
+  
+</urlset>

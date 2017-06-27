@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Joshua M. Agbeku</title>
+    <link>http://mawulijo.dev/categories/docker/</link>
+    <description>Recent content in Docker on Joshua M. Agbeku</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mawulijo.dev/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building this site - Experiences and conclusion</title>
+      <link>http://mawulijo.dev/blog/hugo-conclusion/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-conclusion/</guid>
+      <description>Experiences Overall it has been a very interesting experience using Hugo to build this site and this is the first static site generator I have used to take a project to completion.
+When I started this project, my aim was to have a site that was quick to load, needed very little resources in terms of infrastructure and was easy to add content to.
+The previous incarnations of my personal sites either had Wordpress to edit content or they had no CMS, whereby I would need to edit content files by hand - a process that was quite error prone.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Deployment</title>
+      <link>http://mawulijo.dev/blog/hugo-deployment/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-deployment/</guid>
+      <description>An overview of deploying the site In the previous parts of this series, we looked at an overview of this site, the Hugo setup, setting up a development environment with Docker and asset management with Gulp.
+We will now take a look at how to deploy this site with Github and CircleCI.
+Github is an online service that uses Git as its source control manager. Both of these are the most widely used services for managing source code today.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Assets and Gulp</title>
+      <link>http://mawulijo.dev/blog/hugo-asset-management/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-asset-management/</guid>
+      <description>Managing assets with Gulp Previously in this series, we looked at an overview of this site, the Hugo set up and how to get a development environment set up using Docker and Docker Compose.
+In this fourth part of the series, we take a look at using Gulp to build out our scripts and styles and manage images and SVG files.
+Gulp is a Javascript task runner that processes source files and generates them into something the browser can understand.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Containerised development with Docker Compose</title>
+      <link>http://mawulijo.dev/blog/hugo-docker-setup/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-docker-setup/</guid>
+      <description>An overview of Docker and Docker Compose Following on from the first and second parts of this series, we will take a look at getting a development environment set up using Docker and Docker Compose.
+Docker is a container management tool. A container is an isolated running instance of an operating system, usually set up with a piece of infrastructure required to complete a task.
+A container is a running instance of a Docker image and there are many different images available.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - Hugo</title>
+      <link>http://mawulijo.dev/blog/hugo-setup/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/hugo-setup/</guid>
+      <description>Hugo As previously mentioned in the first part of this series, Hugo is a static site generator.
+This means that it reads in a combination of Markdown content and HTML templates and combines them to generate a site.
+Structural outline Hugo has the following as a basic requirement for how to structure your site.
+This setup is quite strict and is the only &amp;lsquo;opinionated&amp;rsquo; part of the framework.
+It can be quite tricky to get working for beginners.</description>
+    </item>
+    
+    <item>
+      <title>Building this site - An overview</title>
+      <link>http://mawulijo.dev/blog/building-this-site/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/blog/building-this-site/</guid>
+      <description>Objectives for this website Since setting up my peronsal online presence back in 2008, my websites have gone through several iterations and relaunches.
+The first release of this website ran on WordPress with a custom theme I had created bolted on.
+Subsequent iterations launched in 2013 and then again in 2014 used a simple PHP back end and then the Meteor framework respectively.
+Each time I released a new version of the site, it was getting closer to the ideal setup I wanted to have but not all the boxes were being ticked.</description>
+    </item>
+    
+  </channel>
+</rss>

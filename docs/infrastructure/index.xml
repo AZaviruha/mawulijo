@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infrastructure on Joshua M. Agbeku</title>
+    <link>http://mawulijo.dev/infrastructure/</link>
+    <description>Recent content in Infrastructure on Joshua M. Agbeku</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://mawulijo.dev/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache HTTP server</title>
+      <link>http://mawulijo.dev/infrastructure/apache-http-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/apache-http-server/</guid>
+      <description> What is it? Apache is a popular Open-source web server.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://mawulijo.dev/infrastructure/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/docker/</guid>
+      <description> What is it? Docker is a tool that manages the deployment of applications inside containers.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://mawulijo.dev/infrastructure/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/linux/</guid>
+      <description> What is it? Linux is a Open-source Unix-like operating system.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>Microsoft SQL Server</title>
+      <link>http://mawulijo.dev/infrastructure/microsoft-sql-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/microsoft-sql-server/</guid>
+      <description> What is it? Microsoft SQL Server is a relational database management system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>http://mawulijo.dev/infrastructure/mongodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/mongodb/</guid>
+      <description> What is it? MongoDB is an Open-source document oriented database system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>http://mawulijo.dev/infrastructure/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/mysql/</guid>
+      <description> What is it? MySQL is a popular Open-source relational database management system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>http://mawulijo.dev/infrastructure/nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/nginx/</guid>
+      <description> What is it? Nginx is a minimal and modular high performing web server commonly used in reverse-proxying for web applications.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>http://mawulijo.dev/infrastructure/nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/nodejs/</guid>
+      <description> What is it? NodeJS is a server-side Javascript run-time environment.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>http://mawulijo.dev/infrastructure/postgresql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/postgresql/</guid>
+      <description> What is it? PostgreSQL is a popular Open-source object-relational database management system.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>SQLite</title>
+      <link>http://mawulijo.dev/infrastructure/sqlite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/infrastructure/sqlite/</guid>
+      <description> What is it? SQLite is a serverless SQL based relational database commonly used in web and mobile applications.
+Projects  </description>
+    </item>
+    
+  </channel>
+</rss>

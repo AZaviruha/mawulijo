@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frameworks on Joshua M. Agbeku</title>
+    <link>http://mawulijo.dev/frameworks/</link>
+    <description>Recent content in Frameworks on Joshua M. Agbeku</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://mawulijo.dev/frameworks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular 2</title>
+      <link>http://mawulijo.dev/frameworks/angular-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/angular-2/</guid>
+      <description> What is it? Angular 2 is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop
+What is it like? Its like non other ;).
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Apache Libcloud</title>
+      <link>http://mawulijo.dev/frameworks/apache-libcloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/apache-libcloud/</guid>
+      <description> What is it? Apache Libcloud is an Open-source Python based driver library for interacting with several cloud service providers using a unified API.
+What is it like? I made an Open-source contribution to this project in the form of the ProfitBricks driver for the new version of their API.
+The contribution guidelines were very clear and the whole process of merging the code was very smooth.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Bufallo</title>
+      <link>http://mawulijo.dev/frameworks/bufallo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/bufallo/</guid>
+      <description>What is it? Bufullo aims to make building new web applications in Go as quick and simple as possible, and what could be more simple than a new application generator?
+What is it like? EOne of the downsides to Go development is the lack of code &amp;ldquo;reloading&amp;rdquo;. This means as you change your code you need to manually stop your application, rebuild it, and then restart it. Buffalo finds this is annoying, and wants to make life better for you.</description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>http://mawulijo.dev/frameworks/django/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/django/</guid>
+      <description> What is it? Django is an MVC web framework written in Python.
+What is it like? For the most part, working with Django was easy and intuitive, providing a basic and flexible structure to work with even if it is slightly opinionated.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://mawulijo.dev/frameworks/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/hugo/</guid>
+      <description>What is it? Hugo is a static site generator written in the Go programming language.
+What is it like? It&amp;rsquo;s a very nice non-opinionated framework, meaning it provides the barebones of what you need and leaves the rest up to the developer.
+Although still quite young, there is an active and thriving community who are willing to help new users.
+I have built this site using the Hugo framework and would highly recommend it for simple portfolio based websites.</description>
+    </item>
+    
+    <item>
+      <title>Less</title>
+      <link>http://mawulijo.dev/frameworks/less/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/less/</guid>
+      <description> What is it? LESS is a CSS preprocessor framwork with features such as mixins, variables and functions.
+What is it like? Nice and easy to use with a good clean syntax. I used LESS with several projects because it had good support within the Meteor community but for new projects I would opt to use the slightly more powerful SASS instead.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Mongoose</title>
+      <link>http://mawulijo.dev/frameworks/mongoose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/mongoose/</guid>
+      <description> What is it? Mongoose is a NodeJS wrapper that interacts with MongoDB.
+What is it like? Powerful and easy to pick up. It has a powerful relational data modelling set up with validation and hooks.
+Fragmented documentation can be a bit tricky, but it does keep up to date with new MongoDB features.
+I will continue to use this on all MEAN stack applications I work with.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>OpenGL</title>
+      <link>http://mawulijo.dev/frameworks/opengl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/opengl/</guid>
+      <description> What is it? OpenGL is a standardised graphics framework which provides direct access to video hardware using a common interface.
+What is it like? The learning curve is quite steep but in the right hands it is very powerful, dependable and fast.
+I have been experimenting with OpenGL for the past couple of months and will continue to do so.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>http://mawulijo.dev/frameworks/sass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/sass/</guid>
+      <description> What is it? Sass is another CSS preprocessor framework with built in features such as mixins, variables and functions.
+What is it like? Fast, powerful, elegant and well documented. I use this for all projects I am working on in conjunction with the Bourbon.io toolset.
+Projects  Developer Portfolio Static   Portfolio site generated using Hugo.    </description>
+    </item>
+    
+    <item>
+      <title>WebGL</title>
+      <link>http://mawulijo.dev/frameworks/webgl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/webgl/</guid>
+      <description> What is it? WebGL is the Javascript API that closely matches OpenGL ES and gives access to video hardware to render 2d and 3d graphics.
+What is it like? Still in its infancy but making good strides and is quite powerful, if not as fast as OpenGL. The learning curve is quite steep but there are plenty of resources to get newcomers started.
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>expressJS</title>
+      <link>http://mawulijo.dev/frameworks/expressjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/expressjs/</guid>
+      <description> What is it? ExpressJS is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+What is it like? Express provides a thin layer of fundamental web application features, without obscuring Node.js features that you know and love
+It is also the most popular and widely used node.js out there
+Projects  </description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
+      <link>http://mawulijo.dev/frameworks/jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mawulijo.dev/frameworks/jquery/</guid>
+      <description> What is it? jQuery is a Javascript library designed to simplify cross-platform client side development.
+What is it like? Fast and small and very useful for dealing with cross-browser issues (with older browsers) encountered when using standard Javascript.
+I have used this in the past and would use it again if support for older browsers was needed, but with advances in modern Javascript I wouldn&amp;rsquo;t use this anymore.
+Projects  </description>
+    </item>
+    
+  </channel>
+</rss>
