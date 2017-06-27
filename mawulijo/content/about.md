@@ -1,43 +1,52 @@
 ---
 title: 			"About"
-description: 	"My name is Matt Finucane and I am a software engineer"
+description: 	"My name is Joshua M. Agbeku and I am a Web Developer"
 identifier:		"about"
-video:			"portfolio"
-poster:			"portfolio"
 ---
-
+<!--video:			"portfolio"
+poster:			"portfolio"-->
 ## Profile
-I am a freelance full stack web and mobile software engineer based based in Berlin, Germany.
+I am a full stack web and mobile developer and systems administrator based in Accra, Ghana.
 
-I have been building websites and applications since the early 2000s and I graduated from Dublin City University with a BSc. in Computer Science.
+I have been building websites and applications for the past two years and I graduated with my first degree from [Switzerland Management Center University (SMCU)][IT-Sec] with a Bachelor in IT-Security (BBA). I am currently pursuing my second degree in BSc. (Hons) Computer Science at [Regent University College of Science and Technology][BSc-CS]
 
-I have worked with a wide variety of people both in-house and in agencies with clients all over Europe and the United States.
+I have worked with the [Electricity Company of Ghana][ECG] for the since 2011 as an IT Assistant. My work in the coompany has helped in shaping me to be a well rounded human resource since my schedules traverse into other departments such as Engineering, Finance, Human Resources, just to name a few.
 
-I am a strong advocate of Open-source software and make regular contributions to the community.
+I am a strong advocate of Open-source software and an aspiring contributor to the community.
 
-In my spare time I like to create my own websites to keep up with the latest web technologies and I also like taking photos and teaching others about web development.
+In my spare time I like to create my own websites to keep up with the latest web technologies and I also like playing soccer and teaching others about web development.
 
 ## Interests
 - Passionate about technology inside and outside of my professional life.
-- Self-taught in iOS and Android development. Projects can be found on [GitHub](https://github.com/matfin).
-- Successfully participated in the ['24 The Web'](http://24theweb.com/) design challenge as lead developer.
+- Self-taught in Web Developer. Projects can be found on [GitHub](https://github.com/mawulijo).
 - Regularly provide pro-bono web development to charities and startups.
-- Photography, reading, traveling and cycling.
+- Playing football, reading, traveling and listening to music.
 
 ## Current setup
 My current hardware setup is as follows:
 
-- 2015 13" Retina Macbook Pro
-- 2011 27" Apple Thunderbolt monitor
-- Dell 27" monitor
-- Intel NUC with Windows 10 Professional
-- Apple Airport Extreme Wi-Fi router
+- Late 2013 13" Retina Macbook Pro with windows 10
+    * No dual boot. Running windows natively
+- Two Hp 27" monitors
+- Hp Pro Mini-Tower desktop PC with Windows 10
 
 ## About this website
-The idea behind this website is twofold, to give a quick overview of my skills and experience and also provide more in-depth information as needed.
+The idea behind this website is in twofold, to give a quick overview of my skills and experience and a place to keep knowledge of my projects/assignments during my Computer Science Course at [RUCST][RUCST].
 
 It was built using the [Hugo](https://gohugo.io) static site generator which embodies these principles of engineering that I adhere to - simplicity, elegance, performance and openness.
 
-I am registered in Berlin, Germany with VAT ID <em>#DE300353050</em>. All opinions on this website are my own and content is &copy; Matt Finucane {{< year >}}.
+I am registered in Ghana with VAT ID <em>#000000000</em>. All opinions on this website are my own and content is &copy; Joshua M. Agbeku {{< year >}}
 
 I respect you and your privacy as a visitor to my site. This is why I don't have any analytics or tracking tools installed and I will never place ads on this site.
+
+
+
+
+
+[IT-Sec]: https://www.smcuniversity.com/
+
+[BSc-CS]: http://regent.edu.gh/
+
+[ECG]: http://www.ecgonline.info/
+
+[RUCST]: http://regent.edu.gh/

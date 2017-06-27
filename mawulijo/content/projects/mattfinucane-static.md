@@ -2,8 +2,8 @@
 title: 			"Developer Portfolio Static"
 description:	"Portfolio site generated using Hugo."
 synopsis:		"This is my personal online portfolio and blog, which contains information on my technical skills and the projects I have worked on."
-github:			"https://github.com/matfin/mattfinucane.com"
-date:			"2017-04-01"
+github:			"https://github.com/mawulijo/mawulijo"
+date:			"2017-06-27"
 ongoing:		true
 identifier:		"projects"
 languages: 		
@@ -65,4 +65,4 @@ Given the type of website we are builing, serving the files for this website sta
 
 Serving over HTTPS using the HTTP/2 protocol speeds things up signigicantly, especially for image assets.
 
-The landing page for the site loads in approximately 3.7 seconds over a simulated Edge connection, a third of the time that was required to load the older version of the site.
+The landing page for the site loads in approximately 3.7 seconds over a simulated Edge connection.

@@ -7,11 +7,12 @@ watch:                  true
 preservetaxonomynames:  true
 
 params:
-  description:   "Freelance software engineer based in Accra,Ghana"
-  author:        "Agbeku M. Joshua"
+  description:   "Full stack Web developer based in Accra,Ghana"
+  author:        "Agbeku Mawuli Joshua"
   title_first:   "Joshua"
+  title_other_names:  "M."
   title_last:    "Agbeku"
-  cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
+  # cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
   no_index:      true
 
 menu:

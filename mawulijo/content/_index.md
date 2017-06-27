@@ -1,6 +1,6 @@
 ---
 title: 			"Full stack Web Developer"
-description: 	"Hello. I am a freelance Full-stack web developer in Accra, Ghana. This is my online portfolio which details my skills, school work, experience and some of the projects I have worked on."
+description: 	"Hello. I am a full-stack web and mobile developer in Accra, Ghana. This is my online portfolio which details my skills, academic work (blog posts), experience and some of the projects I have worked on."
 identifier:		"home"
 ---
 
