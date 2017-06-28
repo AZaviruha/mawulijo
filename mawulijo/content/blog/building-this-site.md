@@ -1,5 +1,5 @@
 ---
-title: "Building this site - An overview"
+title: "Building this site - Pt. 1 (An overview)"
 description: "Part one gives an overview of how this site was built."
 synopsis: "In part one of this series we give an overview of what is used to build and maintain this site."
 date: "2017-06-27"

@@ -1,8 +1,8 @@
 ---
-title: "Building this site - Hugo"
+title: "Building this site - Pt. 2 (Hugo)"
 description: "Part two in this series explores Hugo, a static site generator."
 synopsis: "In part two of this series we take a more in depth at Hugo - a static site generator."
-date: "2017-05-11"
+date: "2017-06-28"
 author: "Joshua M. Agbeku"
 identifier: "blog"
 sponsored: false
@@ -62,7 +62,7 @@ This metadata and content is pulled out for rendering in the templates later. An
 title: 			"My project"
 description:		"Project description."
 synopsis:		"A small synopsis"
-date:			"2012-04-01"
+date:			"2017-04-01"
 duration:		"60 days"
 identifier:		"projects"
 languages: 		
@@ -215,7 +215,7 @@ This is where Hugo dumps the code for the generated site once it has been built.
 This is where assets such as images and svgs, styles and scripts go. You could add your source code in here and Hugo will pick it up immediately. What I do is keep my source code elsewhere and copy contents over here once they have been concatenated and minified using a Javascript based task runner. I will cover this in more detail in a post later as part of this series.
 
 ## Configuration files
-Hugo loads the site-wide configuration info from a `mawulijo/config.yml` file. This contains info such as the base URL for the site, the title, menu items, taxonomies and other custom configuration parameters. For this project, I have configuration files set up for my local development environment, one for a local build, one for the staging environment and one for the production environment.
+Hugo loads the site-wide configuration info from a `mawulijo/config.yml` file. This contains info such as the base URL for the site, the title, menu items, taxonomies and other custom configuration parameters. For this project, I have configuration files set up for my local development environment `mawulijo/config.yml`, one for a local build `mawulijo/build.yml`, one for the staging environment `mawulijo/staging.yml` and one for the production environment `mawulijo/production.yml`.
 
 As far as I am aware, there is no way to create an abstract configuration file with common properties and allow other files to inherit settings from that.
 
@@ -242,7 +242,7 @@ Since Hugo doesn't offer a way to do this out of the box, I created archetypes f
 Inside the `mawulijo/content/` directory for this project, I have subdirectories for `languages/`, `projects/`, `tools` etc. This means I can now add rich content for each taxonomy term while being able to link the term to a project.
 
 ## Wrapping up
-This article provides an in-depth overview of how I understand Hugo works. For more information, it's always useful to check out [their docs](https://gohugo.io/overview/introduction/) which are improving all the time. 
+This article provided an in-depth overview of my understanding of how Hugo works. For more information, it's always useful to check out [their docs](https://gohugo.io/overview/introduction/)which are improving all the time. 
 
 In [part three](/blog/hugo-docker-setup) I will go into more detail on how I got my development environment set up for this project.
 

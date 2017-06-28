@@ -1,9 +1,9 @@
 ---
-title: "Building this site - Containerised development with Docker Compose"
+title: "Building this site - Pt. 3 (Containerised development with Docker Compose)"
 description: "In part three of this series we look at getting a development environment set up using Docker."
 synopsis: "In part three of this series we explore using Docker to get a development environment set up for Hugo."
-date: "2017-05-12"
-author: "Matt Finucane"
+date: "2017-06-29"
+author: "Joshua M. Agbeku"
 identifier: "blog"
 sponsored: false
 disqus: true
@@ -34,15 +34,15 @@ I don't need to locally install each piece of infrastructure I need and I certai
 
 I don't need to be tied to any particular version of a platform and worry about overwriting a local installation on my devlopment machine which might break one of my other projects.
 
-**Note:** I am using **Docker Community Edition Version 17.03** for MacOS. You will need a recent version of Docker if you want to get a setup like mine running.
+**Note:** I am using **Docker Community Edition Version 17.03.0-ce** for Windows. You will need a recent version of Docker if you want to get a setup like mine running.
 
 ## The container set up for this website
 This website uses three containers that work together as follows:
 
-- The first container named `mf-site-dev` is derived from Alpine Linux and contains the binary for Hugo itself. This runs a development server for Hugo and builds out the site.
-- The second container named `mf-nginx-dev` is derived from the `nginx:alpine` image acts as a reverse proxy that interfaces with the running Hugo server instance. This means I can access the development version of my site at `http://mattfinucane.dev` instead of `http://localhost:1313`.
-- The third container named `mf-depdencies-dev` is derived from the `node:7.9.0` image and handles dependencies that are installed with [NPM](https://www.npmjs.com) - the official NodeJS package manager. This container installs development dependencies and then exits when done.
-- The final container named `mf-gulp-dev` is also derived from `node:7.9.0` and it contains the Javascript task runners I need to manage my styles and scripts using [Gulp](http://gulpjs.com/).
+- The first container named `mj-site-dev` is derived from Alpine Linux and contains the binary for Hugo itself. This runs a development server for Hugo and builds out the site.
+- The second container named `mj-nginx-dev` is derived from the `nginx:alpine` image acts as a reverse proxy that interfaces with the running Hugo server instance. This means I can access the development version of my site at `http://mawulijo.dev` instead of `http://localhost:1313`.
+- The third container named `mj-depdencies-dev` is derived from the `node:7.9.0` image and handles dependencies that are installed with [NPM](https://www.npmjs.com) - the official NodeJS package manager. This container installs development dependencies and then exits when done.
+- The final container named `mj-gulp-dev` is also derived from `node:7.9.0` and it contains the Javascript task runners I need to manage my styles and scripts using [Gulp](http://gulpjs.com/).
 
 **Note:** The third and fourth containers used to be merged into one, but the [BabelJS](https://babeljs.io/) task I was running would kill the container if there was a syntax error in my Javascript source.
 
@@ -56,18 +56,18 @@ The `docker-compose.yml` file describes how these containers should be run and w
 This snippet from my Docker Compose file describes the set up for the container for Hugo.
 
 ```
-mf-site-dev:
+mj-site-dev:
     container_name: site_dev
     build:
       context: .docker/site
       dockerfile: Dockerfile
       args:
-        hugo_version: "0.20.2"
+        hugo_version: "0.24.1"
     ports: 
       - "1313:1313"
     volumes: 
       - ./:/opt:rw
-    command: hugo server -s /opt/mattfinucane --config /opt/mattfinucane/config.yml --baseURL http://mattfinucane.dev/ --bind "0.0.0.0" --appendPort=false --verbose
+    command: hugo server -s /opt/mawulijo --config /opt/mawulijo/config.yml --baseURL http://mawulijo.dev/ --bind "0.0.0.0" --appendPort=false --verbose
 ```
 
 This is what each of the configuration parameters does:
@@ -85,7 +85,7 @@ If we take a look at the `Dockerfile` for the Hugo container, it looks like this
 
 ```
 FROM		alpine:latest
-MAINTAINER	Matt Finucane <matfin@gmail.com>
+MAINTAINER	Joshua M. Agbeku <mawulijo@gmail.com>
 
 ARG		hugo_version
 RUN		rm -rf /opt/public
@@ -95,7 +95,7 @@ RUN 		apk add --update wget ca-certificates && \
 		    wget https://github.com/spf13/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz && \
 		    tar xzf hugo_${hugo_version}_Linux-64bit.tar.gz && \
 		    rm -r hugo_${hugo_version}_Linux-64bit.tar.gz && \
-		    mv hugo*/hugo* /usr/bin/hugo && \
+		    mv hugo* /usr/bin/hugo && \
 		    apk del wget ca-certificates && \
 		    rm /var/cache/apk/*
 
@@ -115,7 +115,7 @@ This is what each of the configuration parameters does:
 Taking a look at this snippet from the `docker-compose.yml` file for the Nginx container, we see the following:
 
 ```
- mf-nginx-dev:
+ mj-nginx-dev:
     container_name: nginx_dev
     build:
       context: .docker/nginx
@@ -125,7 +125,7 @@ Taking a look at this snippet from the `docker-compose.yml` file for the Nginx c
     volumes:
       - ./media:/opt/media:ro
     links: 
-      - mf-site-dev
+      - mj-site-dev
     ports:
       - "80:80"
     command: nginx -g "daemon off;"
@@ -150,7 +150,7 @@ http {
 	server {
 		listen 80;
 
-		server_name mattfinucane.dev;
+		server_name mawulijo.dev;
 
 		gzip 				on;
 		gzip_proxied 			any;
@@ -162,7 +162,7 @@ http {
 		error_log 			/var/log/error.log;
 
 		location / {
-			proxy_pass 			http://mf-site-dev:1313;
+			proxy_pass 			http://mj-site-dev:1313;
 			proxy_http_version		1.1;
 			proxy_set_header		Host $host;
 			proxy_set_header		X-Forwarded-For $remote_addr;
@@ -176,11 +176,11 @@ We should pay special attention to the `proxy_pass` directive inside the `locati
 
 The host name specified matches the name of the container for the Hugo static site generator. This is a very useful feature that Docker Compose provides.
 
-If we take a look inside the `Dockerfile` for the Nginx container, we see the following:
+If we take a look inside the `Dockerfile` for the Nginx container `./.docker/nginx/Dockerfile`, we see the following:
 
 ```
 FROM 		nginx:alpine
-MAINTAINER	Matt Finucane <matfin@gmail.com>
+MAINTAINER	Joshua M. Agbeku <mawulijo@gmail.com>
 ARG 		nginx_conf
 COPY		$nginx_conf /etc/nginx/nginx.conf
 ```
@@ -191,18 +191,18 @@ Remember that the `ARG` directive pulls the filename for the Nginx configuration
 
 ## The dependencies container
 
-If we take a look at the snippet for the `mf-dependencies-dev` container, we see the following:
+If we take a look at the snippet for the `mj-dependencies-dev` container, we see the following:
 
 ```
-mf-dependencies-dev:
+mj-dependencies-dev:
     image: node:7.9.0
     container_name: dependencies_dev  
     volumes:
       - ./:/opt:rw
     links:
-      - mf-site-dev
+      - mj-site-dev
     depends_on:
-      - mf-site-dev
+      - mj-site-dev
     command: sh -c "cd /opt && npm install -g gulp && npm install"
 ```
 
@@ -212,26 +212,26 @@ This container installs Gulp (our Javascript task runner) and its dependencies.
 
 ## The Gulp container
 
-Finally, we can take a look at the container set up for the `mf-gulp-dev` container.
+Finally, we can take a look at the container set up for the `mj-gulp-dev` container.
 
 ```
-mf-gulp-dev:
+mj-gulp-dev:
     image: node:7.9.0
     container_name: gulp_dev
     restart: always
     environment: 
-      - SCRIPTS_DEST=./mattfinucane/static/js/
-      - STYLES_DEST=./mattfinucane/static/css/
-      - SVG_DEST=./mattfinucane/static/svg/
-      - FAVICONS_DEST=./mattfinucane/static/favicons/
+      - SCRIPTS_DEST=./mawulijo/static/js/
+      - STYLES_DEST=./mawulijo/static/css/
+      - SVG_DEST=./mawulijo/static/svg/
+      - FAVICONS_DEST=./mawulijo/static/favicons/
     volumes:
       - ./:/opt:rw
     links:
-      - mf-site-dev
-      - mf-dependencies-dev
+      - mj-site-dev
+      - mj-dependencies-dev
     depends_on:
-      - mf-dependencies-dev
-      - mf-site-dev
+      - mj-dependencies-dev
+      - mj-site-dev
     command: sh -c "cd /opt && npm link gulp && gulp"
 ```
 

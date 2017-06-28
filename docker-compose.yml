@@ -69,4 +69,4 @@ services:
       - mj-site-dev
     depends_on:
       - mj-site-dev
-    command: sh -c "gem install sass && sass --watch /opt/assets/sass/main.sass:/opt/site/static/css/main.css"
+    command: sh -c "gem install sass && sass --watch /opt/assets/sass/main.sass:/opt/mawulijo/static/css/main.css"

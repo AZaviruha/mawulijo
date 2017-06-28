@@ -1,5 +1,5 @@
 ---
-baseURL:                "https://staging.mattfinucane.com"
+baseURL:                "https://staging.mawulijo.me"
 languageCode:           "en-ie"
 title:                  "Matt Finucane"
 disableLiveReload:      true
@@ -7,11 +7,11 @@ watch:                  true
 preservetaxonomynames:  true
 
 params:
-  description:   "Freelance software engineer based in Berlin, Germany"
-  author:        "Matt Finucane"
-  title_first:   "Matt"
-  title_last:    "Finucane"
-  cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
+  description:   "Full stack Web developer based in Accra,Ghana"
+  author:        "Joshua M. Agbeku"
+  title_first:   "Joshua"
+  title_last:    "Mawuli"
+  # cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
   no_index:      true
 
 menu:

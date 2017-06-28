@@ -1,9 +1,9 @@
 ---
-title: "Building this site - Assets and Gulp"
+title: "Building this site - Pt. 4 (Assets and Gulp)"
 description: "In part four of this series we take a look at managing assets with Gulp."
 synopsis: "In part four of this series we take a look at managing assets with Gulp."
-date: "2017-05-13"
-author: "Matt Finucane"
+date: "2017-07-01"
+author: "Joshua M. Agbeku"
 identifier: "blog"
 sponsored: false
 disqus: true
@@ -134,7 +134,7 @@ For this website, I used the following plugins:
 - `sass` is the CSS preprocessor we are using that converts our source SASS files to CSS.
 - `cleancss` takes in the CSS and minifies the output to reduce filesize.
 
-Hugo likes to keep all static assets inside the `static/` directory of the root of the site and in this case the files are kept inside `/mattfinucane/static/`.
+Hugo likes to keep all static assets inside the `static/` directory of the root of the site and in this case the files are kept inside `/mawulijo/static/`.
 
 I prefer to keep the source files I am working with in the `/assets/` directory so I can commit these to GitHub.
 
@@ -145,7 +145,7 @@ The reason for this is because of the Docker set up I have for building the site
 
 When all the containers are built, Hugo finishes first and it has generated the HTML from the content and layout templates. Because the assets container takes longer to run, the generated assets don't make it in to the build process for Hugo in time. 
 
-This results in an unstyled site. I overcome this by copying the style, script and image assets directly to the `public/` directory. Normally, hugo would pick up what is inside the `mattfinucane/static` directory and then build out with the assets included.
+This results in an unstyled site. I overcome this by copying the style, script and image assets directly to the `public/` directory. Normally, hugo would pick up what is inside the `mawulijo/static` directory and then build out with the assets included.
 
 Inside my gulp file I have the following:
 
@@ -158,7 +158,7 @@ const dest = {
 };
 ```
 
-For running a local development server, I have set the destination for the assets to be `mattfinucane/static` because Hugo will pick these up since it is running as a server process.
+For running a local development server, I have set the destination for the assets to be `mawulijo/static` because Hugo will pick these up since it is running as a server process.
 
 For building out the site for other environments, I copy the files as follows:
 

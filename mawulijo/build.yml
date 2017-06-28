@@ -1,17 +1,17 @@
 ---
-baseURL:                "http://mattfinucane.build"
-languageCode:           "en-ie"
-title:                  "Matt Finucane"
+baseURL:                "http://mawulijo.build"
+languageCode:           "en-us"
+title:                  "Joshua M. Agbeku"
 disableLiveReload:      true
 watch:                  false
 preservetaxonomynames:  true
 
 params:
-  description:   "Freelance software engineer based in Berlin, Germany"
-  author:        "Matt Finucane"
-  title_first:   "Matt"
-  title_last:    "Finucane"
-  cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
+  description:   "Full stack Web developer based in Accra,Ghana"
+  author:        "Joshua M. Agbeku"
+  title_first:   "Joshua"
+  title_last:    "Agbeku"
+  #cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
   no_index:      true
 
 menu:

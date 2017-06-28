@@ -1,9 +1,9 @@
 ---
-title: "Building this site - Deployment"
+title: "Building this site - Pt. 5 (Deployment)"
 description: "In part five of this series we take a look at deploying the site using CircleCI."
 synopsis: "In part five of this series we take a look at deploying the site using CircleCI."
-date: "2017-05-14"
-author: "Matt Finucane"
+date: "2017-07-05"
+author: "Joshua M. Agbeku"
 identifier: "blog"
 sponsored: false
 disqus: true
@@ -58,7 +58,7 @@ deployment:
   staging: 
     branch: develop
     commands:
-      - hugo -s ./mattfinucane -b $HUGO_STAGING_HOST --config=./mattfinucane/staging.yml -d ../public
+      - hugo -s ./mawulijo -b $HUGO_STAGING_HOST --config=./mawulijo/staging.yml -d ../public
       - npm install
       - gulp build
       - tar -zcvf public.tar.gz public/
@@ -72,7 +72,7 @@ deployment:
   production:
     tag: /v[0-9]+(\.[0-9]+)*/
     commands:
-      - hugo -s ./mattfinucane -b $HUGO_PRODUCTION_HOST --config=./mattfinucane/production.yml -d ../public
+      - hugo -s ./mawulijo -b $HUGO_PRODUCTION_HOST --config=./mawulijo/production.yml -d ../public
       - npm install
       - gulp build
       - tar -zcvf public-$CIRCLE_TAG.tar.gz public/
