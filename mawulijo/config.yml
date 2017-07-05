@@ -1,5 +1,5 @@
 ---
-baseURL:                "/"
+baseURL:                "http://mawulijo.dev"
 languageCode:           "en-us"
 title:                  "Joshua M. Agbeku"
 disableLiveReload:      true
