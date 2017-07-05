@@ -2,7 +2,6 @@
 	<a class="title" href="{{ .Site.BaseURL }}">
 		<h1 class="animate-in">
 			{{ .Site.Params.title_first }}
-			<!--{{ .Site.Params.title_other_names }}-->
 			<strong>{{ .Site.Params.title_last }}</strong>
 		</h1>
 	</a>
@@ -15,6 +14,9 @@
 			<use xlink:href="/svg/sprite.svg#close">
 			</use>
 		</svg>
-	</button>
+	</button> 
+
 	{{ partial "nav" . }}
+
+	
 </header>

@@ -59,14 +59,14 @@ services:
       - mj-site-dev
     command: sh -c "cd /opt && npm link gulp && gulp"
 
-  mj-sass-dev:
-    container_name: mj_sass_dev
-    image: ruby:2.1-alpine
-    restart: on-failure
-    volumes:
-     - ./:/opt:rw
-    links:
-      - mj-site-dev
-    depends_on:
-      - mj-site-dev
-    command: sh -c "gem install sass && sass --watch /opt/assets/sass/main.sass:/opt/mawulijo/static/css/main.css"
+  # mj-sass-dev:
+  #   container_name: mj_sass_dev
+  #   image: ruby:2.1-alpine
+  #   restart: on-failure
+  #   volumes:
+  #    - ./:/opt:rw
+  #   links:
+  #     - mj-site-dev
+  #   depends_on:
+  #     - mj-site-dev
+  #   command: sh -c "gem install sass && sass --watch /opt/assets/sass/main.sass:/opt/mawulijo/static/css/main.css"

@@ -5,7 +5,7 @@ machine:
 dependencies:
   pre:
     - cd /tmp
-    - wget https://github.com/spf13/hugo/releases/download/v0.20.2/hugo_0.20.2-64bit.deb
+    - wget https://github.com/spf13/hugo/releases/download/v0.24.1/hugo_0.24.1-64bit.deb
     - sudo dpkg -i hugo*.deb
     - npm install -g gulp
     - npm link gulp
@@ -18,7 +18,7 @@ deployment:
   staging: 
     branch: develop
     commands:
-      - hugo -s ./mattfinucane -b $HUGO_STAGING_HOST --config=./mattfinucane/staging.yml -d ../public
+      - hugo -s ./mawulijo -b $HUGO_STAGING_HOST --config=./mawulijo/staging.yml -d ../public
       - npm install
       - gulp build
       - tar -zcvf public.tar.gz public/
@@ -32,7 +32,7 @@ deployment:
   production:
     tag: /v[0-9]+(\.[0-9]+)*/
     commands:
-      - hugo -s ./mattfinucane -b $HUGO_PRODUCTION_HOST --config=./mattfinucane/production.yml -d ../public
+      - hugo -s ./mawulijo -b $HUGO_PRODUCTION_HOST --config=./mawulijo/production.yml -d ../public
       - npm install
       - gulp build
       - tar -zcvf public-$CIRCLE_TAG.tar.gz public/

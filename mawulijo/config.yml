@@ -1,6 +1,5 @@
 ---
 baseURL:                "http://mawulijo.dev"
-#publishDir:            "../docs"
 languageCode:           "en-us"
 title:                  "Joshua M. Agbeku"
 disableLiveReload:      true
@@ -12,7 +11,6 @@ params:
   author:        "Agbeku M. Joshua"
   title_first:   "Joshua"
   title_last:    "Agbeku"
-  # cl_video_base: "https://res.cloudinary.com/matt-finucane-portfolio/video/upload/ac_none"
   no_index:      true
 
 menu:

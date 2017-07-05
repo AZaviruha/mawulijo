@@ -7,7 +7,7 @@ github:			""
 date:			""
 ongoing:		false
 duration:		""
-identifier:		""
+
 languages:		[]
 frameworks: 	[]
 infrastructure:	[]
