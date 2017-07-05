@@ -1,5 +1,5 @@
 ---
-baseURL:                "http://mawulijo.dev"
+baseURL:                "/"
 languageCode:           "en-us"
 title:                  "Joshua M. Agbeku"
 disableLiveReload:      true
@@ -47,3 +47,4 @@ taxonomies:
   tool:           "Tools"
   category:       "Categories"
 ...
+

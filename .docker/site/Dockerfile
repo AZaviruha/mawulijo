@@ -13,7 +13,7 @@ RUN 		apk add --update wget ca-certificates && \
 		    mv hugo* /usr/bin/hugo && \
 		    apk del wget ca-certificates && \
 		    rm /var/cache/apk/* &&\
-			hugo
+			
 
 WORKDIR 	/opt
 

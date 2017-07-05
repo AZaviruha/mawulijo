@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mj-site-dev:
-    container_name: site_dev
+    container_name: mj_site_dev
     build:
       context: .docker/site
       dockerfile: Dockerfile
@@ -15,7 +15,7 @@ services:
     command: hugo server -s /opt/mawulijo --config /opt/mawulijo/config.yml --baseURL http://mawulijo.dev/ --bind "0.0.0.0" --appendPort=false --verbose
 
   mj-nginx-dev:
-    container_name: nginx_dev
+    container_name: mj_nginx_dev
     build:
       context: .docker/nginx
       dockerfile: Dockerfile
@@ -31,7 +31,7 @@ services:
 
   mj-dependencies-dev:
     image: node:7.9.0
-    container_name: dependencies_dev  
+    container_name: mj_dependencies_dev  
     volumes:
       - ./:/opt:rw
     links:
@@ -42,7 +42,7 @@ services:
 
   mj-gulp-dev:
     image: node:7.9.0
-    container_name: gulp_dev
+    container_name: mj_gulp_dev
     restart: always
     environment: 
       - SCRIPTS_DEST=./mawulijo/static/js/
